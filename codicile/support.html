@@ -3,12 +3,29 @@
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Support — codicile</title><meta name="description" content="codicile setup and troubleshooting support."><link rel="stylesheet" href="styles.css"></head>
 <body>
 <header class="site-header"><div class="shell nav"><a class="brand" href="./"><img src="assets/codicile-icon.png" alt="codicile icon">codicile</a><nav class="nav-links" aria-label="Primary"><a href="support.html" aria-current="page">Support</a><a href="privacy.html">Privacy</a></nav></div></header>
-<main class="shell article"><p class="eyebrow">Help when you need it</p><h1>Support</h1><p class="updated">Setup and troubleshooting for codicile Watch &amp; Mac Voice.</p>
+<main class="shell article">
+  <p class="eyebrow">Help when you need it</p><h1>Support</h1>
+  <p class="updated">Setup and troubleshooting for codicile Watch &amp; Mac Voice.</p>
   <p class="contact"><a href="mailto:readiepeasy@gmail.com">readiepeasy@gmail.com</a></p>
-  <section><h2>Setup</h2><ol><li><a href="https://github.com/armanbaybogan/armanbaybogan.github.io/releases/download/codicile-mac-1.1-48/codicile-Mac-48.zip">Download the Mac companion</a> and open it on the Mac you want to use.</li><li>Open Codex on the Mac and sign in to your supported ChatGPT account.</li><li>Open codicile on the Mac, review the data-sharing disclosure, complete remote-access setup, and keep the Mac awake and online.</li><li>On iPhone, use the camera to scan the pairing code shown by codicile on the Mac.</li><li>On Apple Watch, review the data-sharing disclosure and allow microphone access when asked.</li><li>Start or stop the voice session from the Watch.</li></ol></section>
-  <section><h2>Before contacting support</h2><p>Check that the Mac is awake, Codex is installed and signed in, codicile reports remote access as connected, the Watch has microphone permission, and Tailscale is connected. Available actions depend on your Codex setup and permissions.</p><p>If the Mac companion asks you to finish active work and restart Codex during first-time desktop handoff, follow that prompt only after saving or completing the active work.</p></section>
-  <section><h2>Diagnostics</h2><p>Use codicile’s diagnostic export only when support asks for it. Review the export before sharing it and remove personal information. Do not send pairing codes, tokens, passwords, private conversation text, or raw audio by email.</p></section>
-  <section><h2>What to include</h2><p>Tell us which step failed, whether the Mac companion reports account and network readiness, your device models, and the app versions. A short description is usually more useful than a full conversation transcript.</p></section>
+  <section><h2>Setup</h2>
+    <ol>
+      <li><a href="https://github.com/armanbaybogan/armanbaybogan.github.io/releases/download/codicile-mac-1.1-48/codicile-Mac-48.zip">Download the separately distributed Mac companion</a>, unzip it, and open codicile on the Mac you want to use.</li>
+      <li>Open Codex and sign in to a supported ChatGPT account.</li>
+      <li>In codicile on the Mac, review the data-sharing disclosure, sign in to Tailscale through codicile, complete its remote-access setup, and keep the Mac awake and online. The current Mac companion includes Tailscale; a separate Tailscale Mac app is not required.</li>
+      <li>In the iPhone app, scan the pairing code shown on your Mac, or enter the address and code manually if the camera is unavailable. Keep the Watch app open until pairing finishes.</li>
+      <li>On Apple Watch, review the data-sharing disclosure and allow microphone access when asked. Start or stop voice from the Watch.</li>
+    </ol>
+    <p>The Mac companion is a separate, notarized download; it is not installed with the iPhone and Watch app. A compatible Codex installation, a supported ChatGPT account, and a Tailscale account are required. Account and network-service terms are separate from codicile.</p>
+  </section>
+  <section><h2>If connection or audio stops</h2>
+    <p>Check that the Mac is awake, Codex is installed and signed in, codicile reports remote access as connected, Tailscale is connected, and the Watch has microphone permission. If a pairing code expires, generate a new one on the Mac. Available actions depend on your Codex setup and permissions.</p>
+    <p>If the Mac companion asks you to finish active work and restart Codex during first-time desktop handoff, follow that prompt after saving or completing the active work.</p>
+  </section>
+  <section><h2>Privacy and diagnostics</h2>
+    <p>Use <strong>Revoke access</strong> in the Mac app to invalidate previously paired devices; pair them again to restore access. You can revoke voice-data consent separately in the Mac and Watch apps. Revoking access does not delete existing Codex conversations or automatically erase locally saved data from each device. See the <a href="privacy.html">privacy policy</a> or contact support for help with local data removal.</p>
+    <p>Use codicile's <strong>Export Diagnostics</strong> on the Mac only when support asks for a report. Review it before sharing. Do not send pairing codes, tokens, passwords, private conversation text, raw logs, or raw audio by email.</p>
+    <p>Tell us which step failed, whether the Mac companion reports account and network readiness, your device models, and app versions. A short description is usually more useful than a full conversation transcript.</p>
+  </section>
 </main>
 <footer class="site-footer"><div class="shell footer-row"><span>© 2026 Arman Bayboğan · codicile</span><span><a href="privacy.html">Privacy</a> · <a href="./">Home</a></span></div></footer>
 </body></html>
